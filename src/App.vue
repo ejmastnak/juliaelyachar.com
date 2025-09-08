@@ -1,5 +1,6 @@
 <script setup>
 import Nav from '@/Shared/Nav.vue'
+import Footer from '@/Shared/Footer.vue'
 </script>
 
 <template>
@@ -9,5 +10,7 @@ import Nav from '@/Shared/Nav.vue'
   <main class="mx-auto">
     <RouterView />
   </main>
+
+  <Footer />
 
 </template>
