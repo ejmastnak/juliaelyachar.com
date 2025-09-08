@@ -6,7 +6,7 @@ import Nav from '@/Shared/Nav.vue'
 
   <Nav />
 
-  <main>
+  <main class="mx-auto">
     <RouterView />
   </main>
 
