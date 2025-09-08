@@ -1,5 +1,5 @@
 <script setup>
-import bookImg from '@/assets/img/semicivilized.jpg'
+import bookImg from '@/assets/img/semicivilized.jpg?w=400'
 </script>
 
 <template>

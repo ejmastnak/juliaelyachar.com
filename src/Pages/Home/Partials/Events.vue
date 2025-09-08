@@ -1,7 +1,7 @@
 <script setup>
-import bookTalkImg from '@/assets/img/book-talk.jpg'
 import EventCard from '@/Components/EventCard.vue'
-const items = [{ id: 1 }, { id: 2 }, { id: 3 }]
+
+import bookTalkImg from '@/assets/img/book-talk.jpg?w=600'
 
 const events = [
   {

@@ -1,5 +1,5 @@
 <script setup>
-import juliaImg from '@/assets/img/julia.jpg'
+import juliaImg from '@/assets/img/julia.jpg?w=500'
 </script>
 
 <template>
