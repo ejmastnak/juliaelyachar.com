@@ -1,4 +1,5 @@
 <script setup>
+import PageWrapper from '@/Shared/PageWrapper.vue'
 import Hero from './Partials/Hero.vue'
 import Semicivilized from './Partials/Semicivilized.vue'
 import Markets from './Partials/Markets.vue'
@@ -13,17 +14,18 @@ import Events from './Partials/Events.vue'
     <Hero />
 
     <!-- Width-restricted content -->
-    <div class="mt-10 md:mt-16 lg:mt-20 max-w-6xl px-6 mx-auto">
+    <PageWrapper class="mt-10 md:mt-16 lg:mt-20">
       <Semicivilized class="pb-16 lg:pb-20 border-b border-gray-200" />
       <Markets class="mt-16 lg:mt-20" />
-    </div>
+    </PageWrapper>
+
 
     <About class="mt-20" />
 
     <!-- Width-restricted content -->
-    <div class="mt-16 max-w-6xl px-6 mx-auto">
+    <PageWrapper class="mt-16">
       <Events />
-    </div>
+    </PageWrapper>
 
   </div>
 
