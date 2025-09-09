@@ -1,5 +1,5 @@
 <script setup>
-import EventCard from '@/Components/EventCard.vue'
+import Event from '@/Components/Event.vue'
 
 import bookTalkImg from '@/assets/img/book-talk.jpg?w=600'
 
@@ -29,14 +29,14 @@ const events = [
 
     <h2 class="text-5xl">Events</h2>
 
-    <div class="mt-8 flex space-x-10">
+    <div class="mt-5 lg:mt-8 lg:flex lg:gap-x-10">
 
-      <img :src="bookTalkImg" class="max-w-md h-96 rounded object-cover object-right" />
+      <img :src="bookTalkImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
 
       <div>
         <ul role="list" class="divide-y divide-gray-200 dark:divide-white/10">
-          <li v-for="event in events" class="py-4">
-            <EventCard
+          <li v-for="event in events" class="py-5">
+            <Event
               :title="event.title" 
               :type="event.type"
               :date="event.date"

@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <ul class="text-lg ml-auto mt-3 flex justify-around gap-x-8 h-fit">
+        <ul class="hidden md:flex text-lg ml-auto mt-3 flex justify-around gap-x-8 h-fit">
           <li><RouterLink to="/about">About</RouterLink></li>
           <li><RouterLink to="/books">Books</RouterLink></li>
           <li><RouterLink to="/teaching">Teaching</RouterLink></li>

@@ -4,7 +4,7 @@
 
       <RouterLink to="/" class="text-xl font-medium">Julia Elyachar</RouterLink>
 
-      <ul class="ml-auto flex gap-x-8">
+      <ul class="hidden md:flex ml-auto flex gap-x-8">
         <li><RouterLink to="/">Home</RouterLink></li>
         <li><RouterLink to="/about">About</RouterLink></li>
         <li><RouterLink to="/books">Books</RouterLink></li>
