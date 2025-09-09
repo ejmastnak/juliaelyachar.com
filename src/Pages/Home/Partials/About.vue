@@ -8,8 +8,8 @@ import juliaImg from '@/assets/img/julia.jpg?w=500'
 
     <!-- Mobile -->
     <div class="sm:hidden max-w-6xl w-fit mx-auto">
-      <h2 class="text-3xl">About Professor Elyachar</h2>
-      <img :src="juliaImg" class="my-5 sm:my-0 max-w-md h-72 rounded object-cover object-right-bottom" />
+      <h2 class="text-3xl text-center">About Professor Elyachar</h2>
+      <img :src="juliaImg" class="my-5 sm:my-0 max-w-md h-72 rounded object-cover object-right-bottom mx-auto" />
       <div class="max-w-md text-sc-white">
         <p class="mt-5">
           Julia Elyachar is a professor of anthropology at the Princeton University Department of Anthropology and the Princeton Institute for International and Regional Studies.
@@ -21,7 +21,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=500'
     </div>
 
     <!-- Desktop -->
-    <div class="hidden sm:flex sm:flex-row-reverse max-w-6xl w-fit mx-auto gap-x-10">
+    <div class="hidden sm:flex max-w-6xl w-fit mx-auto gap-x-10">
       <div class="max-w-md text-sc-white">
         <h2 class="text-4xl">About Professor Elyachar</h2>
         <p class="mt-5">
