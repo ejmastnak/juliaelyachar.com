@@ -32,7 +32,7 @@ function day(inputDate) {
 </script>
 
 <template>
-  <div class="flex space-x-4">
+  <div class="flex gap-x-4">
 
     <!-- Date -->
     <div class="text-center">
