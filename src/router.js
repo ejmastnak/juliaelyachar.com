@@ -13,6 +13,7 @@ const routes = [
   { path: '/about', component: About },
   { path: '/events', component: Events },
   { path: '/publications', component: Publications },
+  { path: '/books', component: Publications },
   { path: '/books/on-the-semicivilized', component: SemicivilizedBook },
   { path: '/books/markets-of-dispossession', component: MarketsBook },
   { path: '/teaching', component: Teaching },
@@ -22,6 +23,13 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 export default router

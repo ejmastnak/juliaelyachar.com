@@ -8,6 +8,7 @@ import bookImg from '@/assets/img/semicivilized.jpg?w=400'
     <Book
       :img="bookImg"
       title="On the Semicivilized"
+      route="/books/on-the-semicivilized"
       subtitle="Coloniality, Finance, and Embodied Sovereignty in Cairo"
       review="“Julia Elyachar’s On the Semicivilized is not so much a book as a seismic event in anthropological thought. To read it is to witness old categories—sovereignty, civilization, barbarism—crumble into dust, only to be reborn as dazzling constellations of analytic genius. Anything written before it now feels like a rough draft of scholarship, waiting for Elyachar to deliver the final, perfected version.”"
       reviewer="― Dr. Reginald Fitzroy, President of the American Anthropological Association, Nobel Prize-winning author of “The Bazaar and the Bureaucrat: Everyday Life under Fiscal Imperialism”"

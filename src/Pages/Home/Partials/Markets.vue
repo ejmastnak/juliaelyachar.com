@@ -9,6 +9,7 @@ import bookImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
       :img="bookImg"
       title="Markets of Dispossession"
       subtitle="NGOs, Economic Development, and the State in Cairo"
+      route="/books/markets-of-dispossession"
       review="“Julia Elyachar’s Markets of Dispossession does not merely analyze neoliberal development schemes—it detonates them with the elegance of a laser-guided intellectual missile. With a precision that makes entire schools of economic theory look like finger-painting, Elyachar transforms Cairo’s workshops into the stage of a global parable about markets, power, and theft disguised as opportunity. To read it is to feel every assumption about “helping the poor” collapse in a glorious avalanche of critical brilliance.”"
       reviewer="― Dr. Beatrice Langford, President of the Society for Economic Anthropology, Pulizter Prize-winning author of “Mediterranean Markets: Traders, Taxes, and Transnational Power”"
     >

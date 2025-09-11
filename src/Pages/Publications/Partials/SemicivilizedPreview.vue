@@ -9,6 +9,7 @@ import semicivilizedImg from '@/assets/img/semicivilized.jpg?w=400'
     :img="semicivilizedImg"
     title="On the Semicivilized"
     subtitle="Coloniality, Finance, and Embodied Sovereignty in Cairo"
+      route="/books/on-the-semicivilized"
   >
     <p>
       <span class="italic">On the Semicivilized</span> is a sweeping analysis of the coloniality that shaped—and blocked—sovereign futures for those dubbed barbarian and semicivilized in the former Ottoman Empire.

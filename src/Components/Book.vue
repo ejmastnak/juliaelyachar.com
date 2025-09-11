@@ -3,6 +3,7 @@ const props = defineProps({
   img: String,
   title: String,
   subtitle: String,
+  route: String,
   review: String,
   reviewer: String,
 })
@@ -14,21 +15,29 @@ const props = defineProps({
 
       <!-- Mobile -->
       <div class="text-center md:hidden">
-        <h2 class="text-3xl font-semibold">{{title}}</h2>
+        <RouterLink :to="route">
+          <h2 class="text-3xl font-semibold hover:underline">{{title}}</h2>
+        </RouterLink :to="router">
         <p class="mt-1">{{subtitle}}</p>
       </div>
 
-      <img :src="img" class="max-w-md mx-auto my-6 md:my-0 h-96 rounded object-cover object-right" />
+      <div class="mx-auto w-fit my-6 md:my-0 ">
+        <RouterLink :to="route">
+          <img :src="img" class="max-w-md h-96 rounded object-cover object-right hover:ring-2 hover:ring-sc-brown hover:shadow-lg" />
+        </RouterLink>
+      </div>
 
       <div class="max-w-2xl">
         <div class="hidden md:block">
-          <h2 class="text-3xl font-semibold">{{title}}</h2>
+          <RouterLink :to="route">
+            <h2 class="text-3xl font-semibold hover:underline">{{title}}</h2>
+          </RouterLink :to="router">
           <p class="mt-1">{{subtitle}}</p>
         </div>
         <div class="mt-5">
-            <slot />
+          <slot />
         </div>
-        
+
         <div v-if="review && reviewer" class="md:hidden lg:block mt-5 lg:mt-8 mx-auto max-w-xl">
           <p class="mt-5 text-center text-gray-800 font-semibold">
             {{review}}
