@@ -25,11 +25,11 @@
         </div>
 
         <ul class="hidden md:flex text-lg ml-auto mt-3 flex justify-around gap-x-8 h-fit">
-          <li><RouterLink to="/about">About</RouterLink></li>
-          <li><RouterLink to="/books">Books</RouterLink></li>
-          <li><RouterLink to="/teaching">Teaching</RouterLink></li>
-          <li><RouterLink to="/events">Events</RouterLink></li>
-          <li><RouterLink to="/contact">Contact</RouterLink></li>
+          <li><RouterLink class="hover:underline hover:text-blue-100" to="/about">About</RouterLink></li>
+          <li><RouterLink class="hover:underline hover:text-blue-100" to="/books">Books</RouterLink></li>
+          <li><RouterLink class="hover:underline hover:text-blue-100" to="/teaching">Teaching</RouterLink></li>
+          <li><RouterLink class="hover:underline hover:text-blue-100" to="/events">Events</RouterLink></li>
+          <li><RouterLink class="hover:underline hover:text-blue-100" to="/contact">Contact</RouterLink></li>
         </ul>
 
       </div>
