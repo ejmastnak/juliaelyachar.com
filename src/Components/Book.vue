@@ -29,7 +29,7 @@ const props = defineProps({
             <slot />
         </div>
         
-        <div class="md:hidden lg:block mt-5 lg:mt-8 mx-auto max-w-xl">
+        <div v-if="review && reviewer" class="md:hidden lg:block mt-5 lg:mt-8 mx-auto max-w-xl">
           <p class="mt-5 text-center text-gray-800 font-semibold">
             {{review}}
           </p>
@@ -42,7 +42,7 @@ const props = defineProps({
     </div>
 
     <!-- Medium -->
-    <div class="hidden md:block lg:hidden mt-10 max-w-xl mx-auto">
+    <div v-if="review && reviewer" class="hidden md:block lg:hidden mt-10 max-w-xl mx-auto">
       <p class="mt-5 text-center text-gray-800 font-semibold">
         {{review}}
       </p>

@@ -16,7 +16,7 @@ const mobileMenuShowing = ref(false)
         <ul class="hidden md:flex ml-auto flex gap-x-8">
           <li><RouterLink to="/">Home</RouterLink></li>
           <li><RouterLink to="/about">About</RouterLink></li>
-          <li><RouterLink to="/books">Books</RouterLink></li>
+          <li><RouterLink to="/publications">Publications</RouterLink></li>
           <li><RouterLink to="/teaching">Teaching</RouterLink></li>
           <li><RouterLink to="/events">Events</RouterLink></li>
           <li><RouterLink to="/contact">Contact</RouterLink></li>
@@ -38,7 +38,7 @@ const mobileMenuShowing = ref(false)
         <ul class="relative flex flex-col px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
           <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/">Home</RouterLink></li>
           <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/about">About</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/books">Books</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/publications">Publications</RouterLink></li>
           <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/teaching">Teaching</RouterLink></li>
           <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/events">Events</RouterLink></li>
           <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:underline" to="/contact">Contact</RouterLink></li>

@@ -34,7 +34,7 @@ const events = [
       <img :src="bookTalkImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
 
       <div>
-        <ul role="list" class="divide-y divide-gray-200 dark:divide-white/10">
+        <ul role="list" class="divide-y divide-gray-200">
           <li v-for="event in events" class="py-5">
             <Event
               :title="event.title" 
@@ -46,7 +46,7 @@ const events = [
             />
           </li>
         </ul>
-        <button type="button" class="mt-5 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:bg-orange-500 dark:shadow-none dark:hover:bg-orange-400 dark:focus-visible:outline-orange-500">More events</button>
+        <button type="button" class="mt-5 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More events</button>
       </div>
     </div>
   </div>

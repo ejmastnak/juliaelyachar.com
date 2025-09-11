@@ -14,16 +14,15 @@ import Events from './Partials/Events.vue'
     <Hero />
 
     <!-- Width-restricted content -->
-    <PageWrapper class="mt-10 md:mt-16 lg:mt-20">
+    <PageWrapper class="mt-4 md:mt-6 lg:mt-8">
       <Semicivilized class="pb-16 lg:pb-20 border-b border-gray-200" />
       <Markets class="mt-16 lg:mt-20" />
     </PageWrapper>
 
-
-    <About class="mt-20" />
+    <About class="mt-10" />
 
     <!-- Width-restricted content -->
-    <PageWrapper class="mt-16">
+    <PageWrapper class="mt-5">
       <Events />
     </PageWrapper>
 

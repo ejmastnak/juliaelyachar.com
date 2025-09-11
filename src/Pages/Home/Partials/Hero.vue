@@ -20,7 +20,7 @@ import heroImg from '@/assets/img/hero.jpg?w=600'
       <p class="mt-3 max-w-lg">
         I draw on my region-based training in Arabic language, Middle Eastern studies, and Ottoman history as well as disciplinary training in anthropology, economics, political economy, and history of economic and political thought to contribute to debates at the intersection of political economy, social theory, and anthropology.
       </p>
-      <button type="button" class="mt-6 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:bg-orange-500 dark:shadow-none dark:hover:bg-orange-400 dark:focus-visible:outline-orange-500">Check out my new book!!!</button>
+      <button type="button" class="mt-6 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Check out my new book!!!</button>
     </div>
 
     <!-- Desktop -->
@@ -36,21 +36,27 @@ import heroImg from '@/assets/img/hero.jpg?w=600'
         <p class="mt-3">
           I draw on my region-based training in Arabic language, Middle Eastern studies, and Ottoman history as well as disciplinary training in anthropology, economics, political economy, and history of economic and political thought to contribute to debates at the intersection of political economy, social theory, and anthropology.
         </p>
-        <button type="button" class="mt-8 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:bg-orange-500 dark:shadow-none dark:hover:bg-orange-400 dark:focus-visible:outline-orange-500">Check out my new book!!!</button>
+        <button type="button" class="mt-8 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Check out my new book!!!</button>
       </div>
 
     </div>
 
-
   </div>
 
 </template>
+
 <style scoped>
 .clipped {
   clip-path: polygon(100% 0, 100% 89%, 33% 100%, 0 91%, 0 0);
 }
 
-@media (max-width: 640px) { /* sm: */
+@media (max-width: 768px) { /* Medium screens */
+  .clipped {
+  clip-path: polygon(100% 0, 100% 92%, 33% 100%, 0 93%, 0 0);
+  }
+}
+
+@media (max-width: 640px) { /* Small screens */
   .clipped {
     clip-path: polygon(100% 0, 100% 95%, 33% 100%, 0 96%, 0 0);
   }
