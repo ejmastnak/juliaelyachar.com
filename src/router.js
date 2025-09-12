@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/Pages/Home/Home.vue'
 import About from '@/Pages/About.vue'
-import Events from '@/Pages/Events.vue'
+import Events from '@/Pages/Events/Events.vue'
 import Publications from '@/Pages/Publications/Publications.vue'
 import SemicivilizedBook from '@/Pages/Publications/Semicivilized.vue'
 import MarketsBook from '@/Pages/Publications/Markets.vue'

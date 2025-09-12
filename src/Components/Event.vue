@@ -1,11 +1,8 @@
 <script setup>
+import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+
 const props = defineProps({
-  title: String,
-  date: String,
-  time: String,
-  location: String,
-  type: String,
-  description: String,
+  event: Object
 })
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -29,6 +26,11 @@ function day(inputDate) {
   return date.getDate();
 }
 
+function date2string(inputDate) {
+  const date = new Date(inputDate);
+  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+}
+
 </script>
 
 <template>
@@ -36,19 +38,19 @@ function day(inputDate) {
 
     <!-- Date -->
     <div class="text-center">
-      <p class="text-xl text-gray-800">{{month(date)}}</p>
-      <p class="-mt-1 text-3xl font-medium text-gray-700">{{day(date)}}</p>
+      <p class="text-xl text-gray-800">{{month(event.date)}}</p>
+      <p class="-mt-1 text-3xl font-medium text-gray-700">{{day(event.date)}}</p>
     </div>
 
     <div>
-      <p class="font-semibold">{{title}}</p>
-      <p class="text-gray-700 text-sm">{{type}}</p>
-      <p class="text-gray-700 text-sm">{{date}} {{time}}</p>
-      <p class="text-gray-700 text-sm">{{location}}</p>
+      <p class="font-semibold">{{event.title}}</p>
+      <p class="text-gray-700 text-sm">{{event.type}}</p>
+      <p class="text-gray-700 text-sm">{{date2string(event.date)}} {{event.time}}</p>
+      <p class="text-gray-700 text-sm">{{event.location}}</p>
+      <p class="mt-3 text-sm max-w-2xl" v-html="event.description"/>
 
-      <p class="mt-2 text-sm">
-        {{description}}
-      </p>
+      <a v-if="event.href" :href="event.href" class="mt-3 w-fit text-sm font-semibold flex items-center hover:text-gray-900 hover:underline"><span>{{event.hrefText}}</span> <ChevronRightIcon class="size-5 shrink-0 translate-y-px"/></a>
+
     </div>
   </div>
 </template>
