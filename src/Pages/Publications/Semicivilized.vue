@@ -2,6 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Review from './Partials/Review.vue'
 import Book from '@/Components/Book.vue'
+import PillBadge from '@/Components/PillBadge.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 import semicivilizedImg from '@/assets/img/semicivilized.jpg?w=400'
 
@@ -23,7 +24,7 @@ const reviews = [
     <div class="text-center md:text-left">
       <h2 class="text-4xl font-medium">On the Semicivilized</h2>
       <p class="mt-1">Coloniality, Finance, and Embodied Sovereignty in Cairo</p>
-      <p class="mx-auto md:mx-0 mt-1 w-fit rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-700 ring-1 ring-inset ring-orange-700/40">Newly released in May 2025</p>
+      <p class="mx-auto md:mx-0 italic mt-1 w-fit rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-700 ring-1 ring-inset ring-orange-700/40">Newly released in May 2025</p>
     </div>
 
     <div class="mt-12 md:flex md:flex-row-reverse gap-x-20 lg:px-16">
