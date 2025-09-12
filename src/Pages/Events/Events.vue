@@ -14,22 +14,25 @@ const pastEvents = events.filter(e => new Date(e.date) < today);
 
 <template>
   <PageWrapper>
-    <h1 class="text-5xl">Events</h1>
+    <h1 class="text-5xl mb-5 lg:mb-8 pb-5 lg:pb-8 border-b border-gray-200">Events</h1>
 
-    <div class="mt-5 lg:mt-8 pt-5 lg:pt-8 border-t border-gray-200">
+    <div class="lg:flex lg:gap-x-10">
 
-      <!-- Upcoming events -->
       <div>
-        <h2 class="text-2xl font-semibold">Upcoming events</h2>
+
+        <!-- Upcoming events -->
         <div>
-          <ul role="list" class="divide-y divide-gray-200">
-            <li v-for="event in upcomingEvents" class="py-5">
-              <Event :event="event" />
-            </li>
-          </ul>
+          <h2 class="text-2xl font-semibold">Upcoming events</h2>
+          <div>
+            <ul role="list" class="divide-y divide-gray-200">
+              <li v-for="event in upcomingEvents" class="py-5">
+                <Event :event="event" />
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <!-- Pase events -->
+        <!-- Past events -->
         <div class="mt-10 md:mt-16">
           <h2 class="text-2xl font-semibold">Past events</h2>
           <div>
@@ -40,8 +43,10 @@ const pastEvents = events.filter(e => new Date(e.date) < today);
             </ul>
           </div>
         </div>
-
       </div>
+
+      <img :src="bookTalkImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
+
     </div>
   </PageWrapper>
 </template>
