@@ -6,9 +6,10 @@ import heroImg from '@/assets/img/hero.jpg?w=600'
 
 const today = new Date()
 
-events.sort((a, b) => a.date > b.date ? 1 : -1);
 const upcomingEvents = events.filter(e => new Date(e.date) >= today);
 const pastEvents = events.filter(e => new Date(e.date) < today);
+upcomingEvents.sort((a, b) => a.date > b.date ? 1 : -1);
+pastEvents.sort((a, b) => a.date < b.date ? 1 : -1);
 
 </script>
 

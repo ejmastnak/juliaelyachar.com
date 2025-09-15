@@ -26,6 +26,11 @@ function day(inputDate) {
   return date.getDate();
 }
 
+function year(inputDate) {
+  const date = new Date(inputDate);
+  return date.getFullYear();
+}
+
 function date2string(inputDate) {
   const date = new Date(inputDate);
   return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
@@ -40,12 +45,13 @@ function date2string(inputDate) {
     <div class="text-center">
       <p class="text-xl text-gray-800">{{month(event.date)}}</p>
       <p class="-mt-1 text-3xl font-medium text-gray-700">{{day(event.date)}}</p>
+      <p class="-mt-0.5 font-medium text-gray-700">{{year(event.date)}}</p>
     </div>
 
     <div>
       <p class="font-semibold">{{event.title}}</p>
-      <p class="text-gray-700 text-sm">{{event.type}}</p>
-      <p class="text-gray-700 text-sm">{{date2string(event.date)}} {{event.time}}</p>
+      <p class="italic text-sm">{{event.institution}}</p>
+      <p class="mt-px text-gray-700 text-sm">{{event.type}}</p>
       <p class="text-gray-700 text-sm">{{event.location}}</p>
       <p class="mt-3 text-sm max-w-2xl" v-html="event.description"/>
 
