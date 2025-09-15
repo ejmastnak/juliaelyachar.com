@@ -1,7 +1,3 @@
-<script setup>
-import juliaImg from '@/assets/img/julia.jpg?w=500'
-</script>
-
 <template>
 
   <div class="px-5 sm:px-8 py-28 sm:py-36 bg-sc-brown text-sc-white w-full clipped" >
