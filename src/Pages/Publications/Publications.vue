@@ -1,6 +1,5 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import Article from '@/Components/Article.vue'
 import Articles from './Partials/Articles.vue'
 import SemicivilizedPreview from './Partials/SemicivilizedPreview.vue'
 import MarketsPreview from './Partials/MarketsPreview.vue'

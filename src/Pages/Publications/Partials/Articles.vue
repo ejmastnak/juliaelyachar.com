@@ -1,5 +1,5 @@
 <script setup>
-import Article from '@/Components/Article.vue'
+import ArticleSnippet from '@/Components/ArticleSnippet.vue'
 
 const props = defineProps({
   title: String,
@@ -13,7 +13,7 @@ const props = defineProps({
     <h3 class="text-2xl font-semibold">{{title}}</h3>
     <ul class="mt-3 flex flex-col -mx-6 sm:mx-0 divide-y w-fit">
       <li v-for="article in articles">
-        <Article :category="article.category" :title="article.title" />
+        <ArticleSnippet :category="article.category" :title="article.title" />
       </li>
     </ul>
   </div>
