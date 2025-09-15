@@ -15,8 +15,7 @@ import Events from './Partials/Events.vue'
 
     <!-- Width-restricted content -->
     <PageWrapper class="mt-4 md:mt-6 lg:mt-8">
-      <Semicivilized class="pb-16 lg:pb-20 border-b border-gray-200" />
-      <Markets class="mt-16 lg:mt-20" />
+      <Semicivilized />
     </PageWrapper>
 
     <About class="mt-10" />
