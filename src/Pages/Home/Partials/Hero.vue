@@ -11,7 +11,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
 
     <!-- Mobile -->
     <div class="md:hidden mx-auto w-fit">
-      <h1 class="text-4xl">Julia Elyachar</h1>
+      <h1 class="text-center sm:text-left text-4xl">Julia Elyachar</h1>
 
       <img :src="juliaImg" class="my-5 mx-auto sm:mx-0 w-full max-w-[200px] sm:max-w-[300px] h-64 rounded object-cover object-right" />
 
