@@ -6,15 +6,15 @@ export default {
     articles: [
       {
         category: "Political Economy and History of Thought",
-        title: "“Public Wealth, Public Enemies, and Theft: Thinking about Wealth with the Earl of Lauderdale in  Cairo and Split,” Current Anthropology, Special Issue, “The Price of Wealth.” Forthcoming, 2024."
+        citation: "“Public Wealth, Public Enemies, and Theft: Thinking about Wealth with the Earl of Lauderdale in  Cairo and Split,” Current Anthropology, Special Issue, “The Price of Wealth.” Forthcoming, 2024."
       },
       {
         category: "Political Economy and History of Thought",
-        title: "“Before (and After) Neo-Liberalism: Tacit Knowledge, Secrets of the Trade, and the Public Sector in Egypt,” Cultural Anthropology, vol. 27, no. 1, pp. 76-96, February 2012."
+        citation: "“Before (and After) Neo-Liberalism: Tacit Knowledge, Secrets of the Trade, and the Public Sector in Egypt,” Cultural Anthropology, vol. 27, no. 1, pp. 76-96, February 2012."
       },
       {
         category: "Political Economy and History of Thought",
-        title: "“Neoliberalism and the Savage Slot: Rationality, Irrationality, and Calculating Value 1920-2020.” In The Neoliberal Present? Political Economies in Flux, William Callison and Zachary Manfredi, editors. Fordham University Press, 2019, pp. 177-195."
+        citation: "“Neoliberalism and the Savage Slot: Rationality, Irrationality, and Calculating Value 1920-2020.” In The Neoliberal Present? Political Economies in Flux, William Callison and Zachary Manfredi, editors. Fordham University Press, 2019, pp. 177-195."
       }
     ]
   },
@@ -25,15 +25,15 @@ export default {
     articles: [
       {
         category: "Neoliberalism — Empowerment Finance",
-        title: "“Empowerment Money: The World Bank, Non-Governmental Organizations, and the Value of Culture in Egypt,” Public Culture, vol. 14, no. 3, pp. 493-514, Fall 2002.",
+        citation: "“Empowerment Money: The World Bank, Non-Governmental Organizations, and the Value of Culture in Egypt,” Public Culture, vol. 14, no. 3, pp. 493-514, Fall 2002.",
       },
       {
         category: "Neoliberalism — Empowerment Finance",
-        title: "“Neoliberalism and the Savage Slot: Rationality, Irrationality, and Calculating Value 1920-2020.” In The Neoliberal Present? Political Economies in Flux, William Callison and Zachary Manfredi, editors. Fordham University Press, 2019, pp. 177-195.",
+        citation: "“Neoliberalism and the Savage Slot: Rationality, Irrationality, and Calculating Value 1920-2020.” In The Neoliberal Present? Political Economies in Flux, William Callison and Zachary Manfredi, editors. Fordham University Press, 2019, pp. 177-195.",
       },
       {
         category: "Neoliberalism — Empowerment Finance",
-        title: "“Rethinking Neoliberalism in the Middle East,” A Companion to the Anthropology of the Middle East, First Edition. Edited by Soraya Altorki. Wiley-Blackwell, 2015, Chapter 20, pp. 411-433.",
+        citation: "“Rethinking Neoliberalism in the Middle East,” A Companion to the Anthropology of the Middle East, First Edition. Edited by Soraya Altorki. Wiley-Blackwell, 2015, Chapter 20, pp. 411-433.",
       },
     ]
   },
@@ -44,15 +44,15 @@ export default {
     articles: [
       {
         category: "Banking/Money/Finance",
-        title: "“Comprehending and Regulating Financial Crisis,” with Nina Bandelj, Gary Richardson, and James Owen Weatherall, Perspectives on Science, Vol. 24, No. 4, pp. 443-473, July-August 2016.",
+        citation: "“Comprehending and Regulating Financial Crisis,” with Nina Bandelj, Gary Richardson, and James Owen Weatherall, Perspectives on Science, Vol. 24, No. 4, pp. 443-473, July-August 2016.",
       },
       {
         category: "Banking/Money/Finance",
-        title: "“Relational Finance: Ottoman Debt, Financialization, and the Problem of the Semi-Civilized.” Journal of Cultural Economy, February 2023, Volume 16, 2023, Issue 3, pp. 323-336.",
+        citation: "“Relational Finance: Ottoman Debt, Financialization, and the Problem of the Semi-Civilized.” Journal of Cultural Economy, February 2023, Volume 16, 2023, Issue 3, pp. 323-336.",
       },
       {
         category: "Banking/Money/Finance",
-        title: "“Morals and Emotions of Money,” with Nina Bandelj, Tyler Boston, Julie Kim, Michael McBride, Zaibu Tufail, and James Owen Weatherall. In Money Talks: Explaining how Money Really Works. Princeton: Princeton University Press, 2017.",
+        citation: "“Morals and Emotions of Money,” with Nina Bandelj, Tyler Boston, Julie Kim, Michael McBride, Zaibu Tufail, and James Owen Weatherall. In Money Talks: Explaining how Money Really Works. Princeton: Princeton University Press, 2017.",
       }
     ]
   }
