@@ -13,8 +13,6 @@ import bookImg from '@/assets/img/semicivilized.jpg?w=400'
       review="“Julia Elyachar’s On the Semicivilized is not so much a book as a seismic event in anthropological thought. To read it is to witness old categories—sovereignty, civilization, barbarism—crumble into dust, only to be reborn as dazzling constellations of analytic genius. Anything written before it now feels like a rough draft of scholarship, waiting for Elyachar to deliver the final, perfected version.”"
       reviewer="― Dr. Reginald Fitzroy, President of the American Anthropological Association, Nobel Prize-winning author of “The Bazaar and the Bureaucrat: Everyday Life under Fiscal Imperialism”"
     >
-      <p class="-mt-4 italic w-fit rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-700 ring-1 ring-inset ring-orange-700/40">Newly released in May 2025</p>
-
       <p class="mt-5">
         <span class="italic">On the Semicivilized</span> is a sweeping analysis of the coloniality that shaped—and blocked—sovereign futures for those dubbed barbarian and semicivilized in the former Ottoman Empire.
       </p>

@@ -16,7 +16,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=500'
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <button type="button" class="mt-5 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</button>
+        <RouterLink to="/about" class="mt-5 inline-block rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</RouterLink>
       </div>
     </div>
 
@@ -29,7 +29,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=500'
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <button type="button" class="mt-5 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</button>
+        <RouterLink to="/about" class="mt-5 inline-block rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</RouterLink>
       </div>
       <img :src="juliaImg" class="max-w-md h-80 rounded object-cover object-right" />
     </div>
