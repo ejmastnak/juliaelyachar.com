@@ -2,7 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Book from '@/Components/Book.vue'
 import Review from './Partials/Review.vue'
-import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import LinkButton from '@/Components/LinkButton.vue'
 import marketsImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
 
 const reviews = [
@@ -83,9 +83,9 @@ const reviews = [
       <img :src="marketsImg" class="md:max-w-sm mx-auto my-6 md:my-0 rounded object-cover object-right" />
       <div>
         <p>What happens when the market tries to help the poor? In many parts of the world today, neoliberal development programs are offering ordinary people the tools of free enterprise as the means to well-being and empowerment. Schemes to transform the poor into small-scale entrepreneurs promise them the benefits of the market and access to the rewards of globalization. <span class="italic">Markets of Dispossession</span> is a theoretically sophisticated and sobering account of the consequences of these initiatives.</p>
-        <a href="https://www.dukeupress.edu/markets-of-dispossession" target="_blank" rel="noopener noreferrer" class="mt-6 mx-auto w-fit flex items-center text-center gap-x-1 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">
-          <p>View the book at Duke University Press</p><ChevronRightIcon class="size-6 text-white shrink-0"/>
-        </a>
+        <LinkButton href="https://www.dukeupress.edu/markets-of-dispossession">
+          View the book at Duke University Press
+        </LinkButton>
       </div>
     </div>
 

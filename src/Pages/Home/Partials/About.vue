@@ -1,3 +1,7 @@
+<script setup>
+import RouterLinkButton from '@/Components/RouterLinkButton.vue'
+</script>
+
 <template>
 
   <div class="px-5 sm:px-8 py-20 bg-sc-brown text-sc-white w-full" >
@@ -11,7 +15,9 @@
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <RouterLink to="/about" class="mt-5 inline-block rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</RouterLink>
+        <RouterLinkButton route="/about">
+          More about Professor Elyachar
+        </RouterLinkButton>
       </div>
     </div>
 
@@ -24,7 +30,9 @@
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <RouterLink to="/about" class="mt-5 inline-block rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More about Professor Elyachar</RouterLink>
+        <RouterLinkButton route="/about">
+          More about Professor Elyachar
+        </RouterLinkButton>
       </div>
     </div>
 
@@ -35,7 +43,7 @@
 <style scoped>
 
 .clipped {
-    clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
+  clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
 }
 
 @media (max-width: 768px) { /* Medium screens */

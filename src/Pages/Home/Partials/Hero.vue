@@ -1,5 +1,5 @@
 <script setup>
-import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import RouterLinkButton from '@/Components/RouterLinkButton.vue'
 import juliaImg from '@/assets/img/julia.jpg?w=600'
 </script>
 
@@ -23,7 +23,10 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
           She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies. 
         </p>
 
-        <RouterLink to="/books/on-the-semicivilized" class="mt-6 inline-flex gap-x-1 items-center text-center rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"><p>New book: <span class="italic">On the Semicivilized</span></p><ChevronRightIcon class="size-5 shrink-0"/></RouterLink>
+        <RouterLinkButton route="/books/on-the-semicivilized">
+          New book: <span class="italic">On the Semicivilized</span>
+        </RouterLinkButton>
+
       </div>
 
     </div>
@@ -41,7 +44,11 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
         <p class="mt-3">
           She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies. 
         </p>
-        <RouterLink to="/books/on-the-semicivilized" class="mt-6 inline-flex gap-x-1 items-center text-center rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"><p>New book: <span class="italic">On the Semicivilized</span></p><ChevronRightIcon class="size-5 shrink-0"/></RouterLink>
+        
+        <RouterLinkButton route="/books/on-the-semicivilized">
+          New book: <span class="italic">On the Semicivilized</span>
+        </RouterLinkButton>
+
       </div>
 
     </div>

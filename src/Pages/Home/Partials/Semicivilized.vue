@@ -1,7 +1,8 @@
 <script setup>
 import Book from '@/Components/Book.vue'
+import RouterLinkButton from '@/Components/RouterLinkButton.vue'
+
 import bookImg from '@/assets/img/semicivilized.jpg?w=400'
-import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
@@ -21,7 +22,10 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
         Drawing on thirty years of ethnographic research in Cairo, family archives from Palestine and Egypt, and research on Ottoman debt and finance to rethink catastrophe and potentiality in Cairo and the world today, Elyachar theorizes a global condition of the “semicivilized” marked by nonsovereign futures, crippling debts, and the constant specter of violence exercised by those who call themselves civilized.
       </p>
 
-        <RouterLink to="/publications" class="mt-6 inline-flex gap-x-1 items-center text-center rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"><p>Books by Professor Elyachar </p><ChevronRightIcon class="size-5 shrink-0"/></RouterLink>
+      <RouterLinkButton route="/publications" >
+        More books
+      </RouterLinkButton>
+
     </Book>
   </div>
 </template>

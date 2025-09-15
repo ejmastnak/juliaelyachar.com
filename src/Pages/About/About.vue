@@ -1,5 +1,6 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
+import LinkButton from '@/Components/LinkButton.vue'
 import juliaImg from '@/assets/img/julia.jpg?w=600'
 </script>
 
@@ -16,7 +17,9 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
           Julia Elyachar is an award-winning author, anthropologist, and political economist.  She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies.
         </p>
 
-        <a href="/julia-elyachar-cv.pdf" class="mt-6 inline-flex gap-x-1 items-center text-center rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">2025 CV</a>
+        <LinkButton href="/julia-elyachar-cv.pdf" :showIcon="false">
+          2025 CV
+        </LinkButton>
 
       </div>
 

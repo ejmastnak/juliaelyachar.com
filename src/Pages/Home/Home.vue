@@ -2,7 +2,6 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Hero from './Partials/Hero.vue'
 import Semicivilized from './Partials/Semicivilized.vue'
-import Markets from './Partials/Markets.vue'
 import About from './Partials/About.vue'
 import Events from './Partials/Events.vue'
 </script>

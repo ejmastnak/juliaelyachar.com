@@ -4,6 +4,7 @@ import Review from './Partials/Review.vue'
 import Book from '@/Components/Book.vue'
 import PillBadge from '@/Components/PillBadge.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import LinkButton from '@/Components/LinkButton.vue'
 import semicivilizedImg from '@/assets/img/semicivilized.jpg?w=400'
 
 const reviews = [
@@ -36,9 +37,10 @@ const reviews = [
         <p class="mt-2">
           Drawing on thirty years of ethnographic research in Cairo, family archives from Palestine and Egypt, and research on Ottoman debt and finance to rethink catastrophe and potentiality in Cairo and the world today, Elyachar theorizes a global condition of the “semicivilized” marked by nonsovereign futures, crippling debts, and the constant specter of violence exercised by those who call themselves civilized.
         </p>
-        <a href="https://www.dukeupress.edu/on-the-semicivilized" target="_blank" rel="noopener noreferrer" class="mt-6 mx-auto w-fit flex items-center text-center gap-x-1 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">
-          <p>View the book at Duke University Press</p><ChevronRightIcon class="size-6 text-white shrink-0"/>
-        </a>
+        <LinkButton href="https://www.dukeupress.edu/on-the-semicivilized">
+          View the book at Duke University Press
+        </LinkButton>
+
       </div>
     </div>
 

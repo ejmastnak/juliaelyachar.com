@@ -1,5 +1,6 @@
 <script setup>
 import Event from '@/Components/Event.vue'
+import RouterLinkButton from '@/Components/RouterLinkButton.vue'
 import events from '@/assets/data/events.js'
 
 const today = new Date()
@@ -24,7 +25,9 @@ if (pastEvents.length < N) {
           <Event :event="event" />
         </li>
       </ul>
-      <RouterLink to="/events" class="inline-block mt-5 rounded-full bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">More events</RouterLink>
+      <RouterLinkButton route="/events" >
+        More events
+      </RouterLinkButton>
     </div>
   </div>
 
