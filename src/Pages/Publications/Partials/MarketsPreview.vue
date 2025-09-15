@@ -10,7 +10,7 @@ import marketsImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
       :img="marketsImg"
       title="Markets of Dispossession"
       subtitle="NGOs, Economic Development, and the State in Cairo"
-      route="/books/market-of-dispossession"
+      route="/books/markets-of-dispossession"
     >
       <p>
         What happens when the market tries to help the poor?
