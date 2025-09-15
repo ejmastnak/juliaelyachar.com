@@ -5,7 +5,7 @@ import Events from '@/Pages/Events/Events.vue'
 import Publications from '@/Pages/Publications/Publications.vue'
 import SemicivilizedBook from '@/Pages/Publications/Semicivilized.vue'
 import MarketsBook from '@/Pages/Publications/Markets.vue'
-import Teaching from '@/Pages/Teaching.vue'
+import Teaching from '@/Pages/Teaching/Teaching.vue'
 import Contact from '@/Pages/Contact.vue'
 
 const routes = [
