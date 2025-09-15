@@ -6,7 +6,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
 <template>
   <!-- Hero -->
   <div
-    class="px-5 sm:px-8 pt-8 sm:pt-12 md:pt-24 pb-36 bg-sc-brown w-full text-sc-white clipped" 
+    class="px-5 sm:px-8 pt-8 sm:pt-12 md:pt-24 pb-28 bg-sc-brown w-full text-sc-white" 
   >
 
     <!-- Mobile -->

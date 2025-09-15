@@ -3,8 +3,7 @@
 
     <!-- Main footer content -->
     <div
-      class="bg-sc-dark text-sc-white pt-20 pb-20 px-8"
-      style="clip-path: polygon(42% 15%, 100% 0, 100% 100%, 0 100%, 0 0);"
+      class="bg-sc-brown text-sc-white pt-12 pb-16 px-8"
     >
 
       <div class="max-w-5xl mx-auto flex">

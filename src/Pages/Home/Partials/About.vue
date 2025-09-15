@@ -1,6 +1,6 @@
 <template>
 
-  <div class="px-5 sm:px-8 py-28 sm:py-36 bg-sc-brown text-sc-white w-full clipped" >
+  <div class="px-5 sm:px-8 py-20 bg-sc-brown text-sc-white w-full" >
 
     <!-- Mobile -->
     <div class="sm:hidden max-w-6xl w-fit mx-auto">
