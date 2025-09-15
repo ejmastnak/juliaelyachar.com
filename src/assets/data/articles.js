@@ -1,4 +1,32 @@
+import comparativeStudiesInSocietyAndHistoryImg from '@/assets/img/journals/comparative-studies-in-society-and-history.jpg?w=600'
+import critiqueInternationaleImg from '@/assets/img/journals/critique-internationale.jpg?w=600'
+import internationalEncyclopediaOfTheSocialAndBehavioralSciencesImg from '@/assets/img/journals/international-encyclopedia-of-the-social-and-behavioral-sciences.jpg?w=600'
+import publicCultureImg from '@/assets/img/journals/public-culture.jpg?w=600'
+
 export default {
+  
+  selected: [
+    {
+      citation: "“NGOs: Anthropological and Historical Aspects.” <i>International Encyclopedia of the Social and Behavioral Sciences</i>, 2nd ed, December 2015.",
+      img: internationalEncyclopediaOfTheSocialAndBehavioralSciencesImg,
+      href: "https://www.researchgate.net/publication/304190799_Nongovernmental_Organizations_Anthropological_and_Historical_Aspects"
+    },
+    {
+      citation: "“Mappings of Power: The State, NGOs, and International Organizations in the Informal Economy of Cairo.” <i>Comparative Studies in Society and History</i> 45, no. 3 (Jul. 2003): 571–605.",
+      img: comparativeStudiesInSocietyAndHistoryImg,
+      href: "https://www.jstor.org/stable/3879462"
+    },
+    {
+      citation: "“Empowerment Money: The World Bank, Non-Governmental Organizations, and the Value of Culture in Egypt.” <i>Public Culture</i> 14, no. 3 (Fall 2002): 493–514.",
+      img: publicCultureImg,
+      href: "https://muse.jhu.edu/pub/4/article/26292/pdf"
+    },
+    {
+      citation: "“Finance internationale, micro-crédit et religion de la société civile en Égypte” <i>Critique Internationale</i> 4, no. 13 (Novembre 2001; Paris): 139–52.",
+      img: critiqueInternationaleImg,
+      href: "https://shs.cairn.info/revue-critique-internationale-2001-4-page-139?lang=fr"
+    },
+  ],
 
   // Economy
   economy: {

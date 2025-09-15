@@ -2,6 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Hero from './Partials/Hero.vue'
 import Semicivilized from './Partials/Semicivilized.vue'
+import Articles from './Partials/Articles.vue'
 import About from './Partials/About.vue'
 import Events from './Partials/Events.vue'
 </script>
@@ -14,7 +15,8 @@ import Events from './Partials/Events.vue'
 
     <!-- Width-restricted content -->
     <PageWrapper class="mt-4 md:mt-6 lg:mt-8">
-      <Semicivilized />
+      <Semicivilized class="pb-16 mb-12 md:pb-24 md:mb-20 border-b border-gray-200" />
+      <Articles />
     </PageWrapper>
 
     <About class="mt-10" />
