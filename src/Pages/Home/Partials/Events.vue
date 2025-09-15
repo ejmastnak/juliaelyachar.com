@@ -1,7 +1,6 @@
 <script setup>
 import Event from '@/Components/Event.vue'
 import events from '@/assets/data/events.js'
-import bookTalkImg from '@/assets/img/book-talk.jpg?w=600'
 </script>
 
 <template>
@@ -10,8 +9,6 @@ import bookTalkImg from '@/assets/img/book-talk.jpg?w=600'
     <h2 class="text-5xl">Events</h2>
 
     <div class="mt-5 lg:mt-8 lg:flex lg:gap-x-10">
-
-      <img :src="bookTalkImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
 
       <div>
         <ul role="list" class="divide-y divide-gray-200">

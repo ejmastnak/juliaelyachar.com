@@ -2,7 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Event from '@/Components/Event.vue'
 import events from '@/assets/data/events.js'
-import bookTalkImg from '@/assets/img/book-talk.jpg?w=600'
+import heroImg from '@/assets/img/hero.jpg?w=600'
 
 const today = new Date()
 
@@ -45,7 +45,7 @@ const pastEvents = events.filter(e => new Date(e.date) < today);
         </div>
       </div>
 
-      <img :src="bookTalkImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
+      <img :src="heroImg" class="hidden lg:block max-w-md h-96 rounded object-cover object-right" />
 
     </div>
   </PageWrapper>
