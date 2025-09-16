@@ -26,9 +26,12 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition
-    } else {
-      return { top: 0 }
-    }
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        top: 90,  // to account for height of top nav
+      }
+    } else return { top: 0 }
   },
 })
 
