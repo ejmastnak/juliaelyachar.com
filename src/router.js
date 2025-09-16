@@ -1,3 +1,5 @@
+import { createWebHistory } from 'vue-router'
+
 import Home from '@/Pages/Home/Home.vue'
 import About from '@/Pages/About/About.vue'
 import Events from '@/Pages/Events/Events.vue'
@@ -19,4 +21,20 @@ const routes = [
   { path: '/contact', component: Contact },
 ]
 
-export default routes
+const routerOptions = {
+  history: createWebHistory(),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        top: 90,  // to account for height of top nav
+      }
+    } else return { top: 0 }
+  },
+}
+
+export default routerOptions
+
