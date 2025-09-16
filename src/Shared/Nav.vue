@@ -14,12 +14,12 @@ const mobileMenuShowing = ref(false)
 
         <!-- Desktop -->
         <ul class="hidden md:flex ml-auto flex gap-x-8">
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/">Home</RouterLink></li>
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/about">About</RouterLink></li>
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/publications">Publications</RouterLink></li>
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/teaching">Teaching</RouterLink></li>
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/events">Events</RouterLink></li>
-          <li><RouterLink class="hover:underline hover:text-blue-600" to="/contact">Contact</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/">Home</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/about">About</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/publications">Publications</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/teaching">Teaching</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/events">Events</RouterLink></li>
+          <li><RouterLink activeClass="font-medium" class="hover:underline hover:text-blue-600" to="/contact">Contact</RouterLink></li>
         </ul>
 
         <!-- Mobile (hamburger) -->
@@ -36,12 +36,12 @@ const mobileMenuShowing = ref(false)
       <!-- translate-y-5 makes up for py-5 of nav -->
       <div v-show="mobileMenuShowing" class="absolute right-0 translate-y-5 w-fit min-w-[160px] bg-white border-x border-b border-gray-300">
         <ul class="relative flex flex-col px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/">Home</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/about">About</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/publications">Publications</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/teaching">Teaching</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/events">Events</RouterLink></li>
-          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink class="hover:text-blue-600 hover:underline" to="/contact">Contact</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/">Home</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/about">About</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/publications">Publications</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/teaching">Teaching</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/events">Events</RouterLink></li>
+          <li @click="mobileMenuShowing = false" class="border-b"><RouterLink activeClass="font-medium" class="hover:text-blue-600 hover:underline" to="/contact">Contact</RouterLink></li>
         </ul>
       </div>
     </Transition>
