@@ -13,7 +13,7 @@
           <div class="mt-5">
             <p>Department of Anthropology</p>
             <!-- <p>Princeton Institute for International and Regional Studies</p> -->
-            <p>116 Aaron Burr Hall</p>
+            <p>130 Aaron Burr Hall</p>
             <p>Princeton, NJ 08545</p>
           </div>
           <div class="mt-3 border-t border-gray-400 w-fit">
