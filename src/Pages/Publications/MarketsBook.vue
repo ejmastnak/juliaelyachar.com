@@ -5,6 +5,9 @@ import Review from './Partials/Review.vue'
 import LinkButton from '@/Components/LinkButton.vue'
 import marketsImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
 
+import { useHead } from '@unhead/vue'
+useHead({ title: 'Markets of Dispossession | Julia Elyachar', })
+
 const reviews = [
   {
     review: "“<i>Markets of Dispossession</i> is an engaging book from the first page. It embodies keen academic analysis with a humanistic touch.”",

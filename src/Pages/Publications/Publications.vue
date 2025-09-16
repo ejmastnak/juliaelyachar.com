@@ -5,6 +5,8 @@ import SemicivilizedPreview from './Partials/SemicivilizedPreview.vue'
 import MarketsPreview from './Partials/MarketsPreview.vue'
 import articles from '@/assets/data/articles.js'
 
+import { useHead } from '@unhead/vue'
+useHead({ title: 'Publications | Julia Elyachar', })
 </script>
 
 <template>

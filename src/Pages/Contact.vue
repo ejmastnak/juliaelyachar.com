@@ -1,5 +1,8 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
+
+import { useHead } from '@unhead/vue'
+useHead({ title: 'Contact | Julia Elyachar', })
 </script>
 
 <template>

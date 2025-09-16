@@ -11,6 +11,9 @@ const pastEvents = events.filter(e => new Date(e.date) < today);
 upcomingEvents.sort((a, b) => a.date > b.date ? 1 : -1);
 pastEvents.sort((a, b) => a.date < b.date ? 1 : -1);
 
+import { useHead } from '@unhead/vue'
+useHead({ title: 'Events | Julia Elyachar', })
+
 </script>
 
 <template>

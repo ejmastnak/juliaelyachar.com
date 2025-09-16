@@ -5,6 +5,10 @@ import Semicivilized from './Partials/Semicivilized.vue'
 import Articles from './Partials/Articles.vue'
 import About from './Partials/About.vue'
 import Events from './Partials/Events.vue'
+
+import { useHead } from '@unhead/vue'
+useHead({ title: 'Home | Julia Elyachar', })
+
 </script>
 
 <template>

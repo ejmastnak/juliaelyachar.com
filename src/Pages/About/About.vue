@@ -2,6 +2,9 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import LinkButton from '@/Components/LinkButton.vue'
 import juliaImg from '@/assets/img/julia.jpg?w=600'
+
+import { useHead } from '@unhead/vue'
+useHead({ title: 'About | Julia Elyachar', })
 </script>
 
 <template>

@@ -7,6 +7,9 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 import LinkButton from '@/Components/LinkButton.vue'
 import semicivilizedImg from '@/assets/img/semicivilized.jpg?w=400'
 
+import { useHead } from '@unhead/vue'
+useHead({ title: 'On the Semicivilized | Julia Elyachar', })
+
 const reviews = [
   {
     review: "“Situating herself in the ‘middle’ of the ‘east,’ Julia Elyachar unsettles the barnacled and cruel binaries of civilizational discourses by exploring the statutory infrastructures of extraterritorial articulation, population mobilities, and commerce in post-Ottoman geographies, and in Cairo in particular. Creatively recuperating all the shaken ways of feeling, moving, and acting in common that exceed the confines of territorial capture and unitary sovereignty, <i>On the Semicivilized</i> is a channel to an entire world of embodied operations fueling insurgently quotidian collective lives. Long-standing notions of improvement are dissected and refused, and it would be hard to foresee how anyone could ‘improve’ on this genealogy of the nuts and bolts of urban power and political affect.”",
