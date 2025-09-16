@@ -1,5 +1,3 @@
-import { createWebHistory } from 'vue-router'
-
 import Home from '@/Pages/Home/Home.vue'
 import About from '@/Pages/About/About.vue'
 import Events from '@/Pages/Events/Events.vue'
@@ -22,7 +20,6 @@ const routes = [
 ]
 
 const routerOptions = {
-  history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
