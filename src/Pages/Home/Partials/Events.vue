@@ -25,7 +25,7 @@ if (pastEvents.length < N) {
           <Event :event="event" />
         </li>
       </ul>
-      <RouterLinkButton route="/events" >
+      <RouterLinkButton to="/events" >
         More events
       </RouterLinkButton>
     </div>

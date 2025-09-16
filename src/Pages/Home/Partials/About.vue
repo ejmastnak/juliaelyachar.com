@@ -15,7 +15,7 @@ import RouterLinkButton from '@/Components/RouterLinkButton.vue'
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <RouterLinkButton route="/about">
+        <RouterLinkButton to="/about">
           More about Professor Elyachar
         </RouterLinkButton>
       </div>
@@ -30,7 +30,7 @@ import RouterLinkButton from '@/Components/RouterLinkButton.vue'
           She is the author of the books <span class="italic">On the Semicivilized: Coloniality, Finance, and Embodied Sovereignty in Cairo</span> and <span class="italic">Markets of Dispossession: NGOs, Economic Development, and the State in Cairo</span>.
           Her work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly.
         </p>
-        <RouterLinkButton route="/about">
+        <RouterLinkButton to="/about">
           More about Professor Elyachar
         </RouterLinkButton>
       </div>

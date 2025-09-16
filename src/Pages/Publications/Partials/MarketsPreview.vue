@@ -10,7 +10,7 @@ import marketsImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
       :img="marketsImg"
       title="Markets of Dispossession"
       subtitle="NGOs, Economic Development, and the State in Cairo"
-      route="/books/markets-of-dispossession"
+      to="/books/markets-of-dispossession"
     >
       <p>
         What happens when the market tries to help the poor?
@@ -19,7 +19,7 @@ import marketsImg from '@/assets/img/markets-of-dispossession.jpg?w=400'
         <span class="italic">Markets of Dispossession</span> is a theoretically sophisticated and sobering account of the consequences of these initiatives. 
       </p>
 
-      <RouterLinkButton route="/books/markets-of-dispossession">
+      <RouterLinkButton to="/books/markets-of-dispossession">
         More about <span class="italic">Markets of Dispossession</span>
       </RouterLinkButton>
 

@@ -23,7 +23,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
           She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies. 
         </p>
 
-        <RouterLinkButton route="/books/on-the-semicivilized">
+        <RouterLinkButton to="/books/on-the-semicivilized">
           New book: <span class="italic">On the Semicivilized</span>
         </RouterLinkButton>
 
@@ -45,7 +45,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
           She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies. 
         </p>
         
-        <RouterLinkButton route="/books/on-the-semicivilized">
+        <RouterLinkButton to="/books/on-the-semicivilized">
           New book: <span class="italic">On the Semicivilized</span>
         </RouterLinkButton>
 

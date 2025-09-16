@@ -25,7 +25,7 @@ const selectedArticles = [
     </div>
 
     <div class="mt-5 mx-auto w-fit">
-      <RouterLinkButton route="/publications" hash="#articles">
+      <RouterLinkButton to="/publications" hash="#articles">
         More articles
       </RouterLinkButton>
     </div>
