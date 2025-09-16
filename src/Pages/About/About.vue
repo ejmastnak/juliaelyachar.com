@@ -17,7 +17,7 @@ import juliaImg from '@/assets/img/julia.jpg?w=600'
           Julia Elyachar is an award-winning author, anthropologist, and political economist.  She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies.
         </p>
 
-        <LinkButton href="/julia-elyachar-cv.pdf" :showIcon="false">
+        <LinkButton class="mt-6" href="/julia-elyachar-cv.pdf" :showIcon="false">
           2025 CV
         </LinkButton>
 

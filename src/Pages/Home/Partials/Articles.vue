@@ -2,7 +2,14 @@
 import RouterLinkButton from '@/Components/RouterLinkButton.vue'
 import articles from '@/assets/data/articles.js'
 
-const selectedArticles = articles.selected
+const selectedArticles = [
+  articles.politicalEconomy.payload[0],
+  articles.politicalEconomy.payload[1],
+  articles.proprioception.payload[0],
+  articles.neoliberalism.payload[1],
+  articles.infrastructure.payload[1],
+  articles.infrastructure.payload[0],
+]
 
 </script>
 
@@ -18,7 +25,7 @@ const selectedArticles = articles.selected
     </div>
 
     <div class="mt-5 mx-auto w-fit">
-      <RouterLinkButton route="/publications">
+      <RouterLinkButton route="/publications" hash="#articles">
         More articles
       </RouterLinkButton>
     </div>

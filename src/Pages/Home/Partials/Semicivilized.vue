@@ -22,7 +22,7 @@ import bookImg from '@/assets/img/semicivilized.jpg?w=400'
         Drawing on thirty years of ethnographic research in Cairo, family archives from Palestine and Egypt, and research on Ottoman debt and finance to rethink catastrophe and potentiality in Cairo and the world today, Elyachar theorizes a global condition of the “semicivilized” marked by nonsovereign futures, crippling debts, and the constant specter of violence exercised by those who call themselves civilized.
       </p>
 
-      <RouterLinkButton route="/publications" >
+      <RouterLinkButton route="/publications" hash="#books" >
         More books
       </RouterLinkButton>
 

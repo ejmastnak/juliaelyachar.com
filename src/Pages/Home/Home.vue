@@ -19,7 +19,7 @@ import Events from './Partials/Events.vue'
       <Articles />
     </PageWrapper>
 
-    <About class="mt-10" />
+    <About class="mt-5" />
 
     <!-- Width-restricted content -->
     <PageWrapper class="mt-5">
