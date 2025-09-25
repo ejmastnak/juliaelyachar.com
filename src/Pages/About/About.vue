@@ -20,7 +20,6 @@ useHead({ title: 'About | Julia Elyachar', })
           Julia Elyachar is an anthropologist, political economist, and award winning author.
           She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language.
           She is an associate professor of anthropology at Princeton University, and associate professor at the Princeton Institute for International and Regional Studies. 
-          She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies.
         </p>
 
         <LinkButton class="mt-6" href="/julia-elyachar-cv.pdf" :showIcon="false">
@@ -47,7 +46,8 @@ useHead({ title: 'About | Julia Elyachar', })
       </p>
 
       <p>
-        Elyachar’s work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly. As an economic and historical anthropologist working in the Middle East, she engages with a long and rich history of markets, finance, and global infrastructures of commerce and mobility in the region. Her primary research site is Egypt, where she studied and conducted ethnographic research for four and a half years in the 1990s, and continues to conduct research for shorter periods to this day. Her research is also informed by her work at the Federal Reserve Bank of New York, where she was a research analyst after college, and by her ongoing experience living and working in Slovenia (former Yugoslavia). Elyachar also draws heavily in her writing and thinking on her family legacy and archive from Palestine. She is the great-grand daughter of the founder of an early 20th century stone-crushing “Factory” in Jerusalem, Palestine.  Likewise, she is from a line of Ottoman “sarrafs” or money brokers in Palestine, who mediated flows of commerce across Empire in cooperation with Ottoman officials and factors of many trading nations, and the descendent of Chief Rabbis of Palestine.
+        Elyachar’s work draws on fine-grained ethnography and regional expertise in the Middle East, Levant, and the Maghreb to open up areas for theoretical inquiry and conceptional innovation in anthropology and the social sciences more broadly. As an economic and historical anthropologist working in the Middle East, she engages with a long and rich history of markets, finance, and global infrastructures of commerce and mobility in the region. Her primary research site is Egypt, where she studied and conducted ethnographic research for four and a half years in the 1990s, and continues to conduct research for shorter periods to this day. Her research is also informed by her work at the Federal Reserve Bank of New York, where she was a research analyst after college, and by her ongoing experience living and working in Slovenia (former Yugoslavia).
+        Elyachar also draws heavily in her writing and thinking on her family legacy and archive from Palestine. 
       </p>
     </div>
 
