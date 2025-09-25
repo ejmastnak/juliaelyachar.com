@@ -5,10 +5,9 @@ import Book from '@/Components/Book.vue'
 import PillBadge from '@/Components/PillBadge.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 import LinkButton from '@/Components/LinkButton.vue'
-import semicivilizedImg from '@/assets/img/semicivilized.jpg?w=400'
-
+import thinkingInfrastructuresImg from '@/assets/img/thinking-infrastructures.jpg?w=400'
 import { useHead } from '@unhead/vue'
-useHead({ title: 'On the Semicivilized | Julia Elyachar', })
+useHead({ title: 'Thinking Infrastructures | Julia Elyachar', })
 
 const reviews = [
   {
@@ -67,7 +66,7 @@ const reviews = [
     </div>
 
     <div class="pt-16 mt-16 border-t border-gray-200">
-      <h2 class="text-2xl font-semibold text-center">Praise for <span class="italic">On the Semicivilized</span></h2>
+      <h2 class="text-2xl font-semibold text-center">Praise for <span class="italic">Thinking Infrastructures</span></h2>
       <div class="mt-8 flex flex-col gap-y-8">
         <Review 
           v-for="(review, idx) in reviews"

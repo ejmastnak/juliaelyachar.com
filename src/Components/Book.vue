@@ -1,6 +1,7 @@
 <script setup>
 const props = defineProps({
   img: String,
+  imgClasses: String,
   title: String,
   subtitle: String,
   to: String,
@@ -23,7 +24,7 @@ const props = defineProps({
 
       <div class="mx-auto w-fit my-6 md:my-0 ">
         <RouterLink :to="to">
-          <img :src="img" class="max-w-md h-96 rounded object-cover object-right hover:ring-2 hover:ring-sc-brown hover:shadow-lg" />
+          <img :src="img" class="max-w-md h-96 rounded object-cover object-right hover:ring-2 hover:ring-sc-brown hover:shadow-lg" :class="imgClasses" />
         </RouterLink>
       </div>
 

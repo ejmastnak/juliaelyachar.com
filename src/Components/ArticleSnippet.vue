@@ -13,7 +13,7 @@ const props = defineProps({
       <PillBadge class="mt-2">{{article.category}}</PillBadge>
     </div>
     <a :href="article.href" target="_blank" rel="noopener noreferrer" class="mt-4 w-fit text-gray-700 font-medium flex items-center hover:text-gray-900 hover:underline">
-      <span>View article</span> <ChevronRightIcon class="size-5 shrink-0 translate-y-px"/>
+      <span>View {{article.type}}</span> <ChevronRightIcon class="size-5 shrink-0 translate-y-px"/>
     </a>
   </div>
 </template>

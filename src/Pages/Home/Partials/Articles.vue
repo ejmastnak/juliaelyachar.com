@@ -8,18 +8,21 @@ const selectedArticles = [
   articles.proprioception.payload[0],
   articles.neoliberalism.payload[1],
   articles.infrastructure.payload[1],
-  articles.infrastructure.payload[0],
+  articles.palestine.payload[0],
 ]
 
 </script>
 
 <template>
   <div>
-    <h2 class="text-4xl">Select Articles</h2>
+    <h2 class="text-4xl">Recent articles and chapters</h2>
 
     <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <div v-for="article in selectedArticles">
-        <img :src="article.img" class="max-w-sm h-96 rounded object-cover object-center mx-auto"/>
+        <a target="_blank" rel="noopener noreferrer" :href="article.href" class="block w-fit mx-auto rounded overflow-hidden hover:shadow-lg hover:ring-2 hover:ring-gray-200">
+          <img :src="article.img" class="max-w-sm h-96 object-cover object-center mx-auto"/>
+        </a>
+        
         <p class="mt-1 text-center leading-snug" v-html="article.citation" />
       </div>
     </div>

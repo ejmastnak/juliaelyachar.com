@@ -17,7 +17,10 @@ useHead({ title: 'About | Julia Elyachar', })
 
       <div>
         <p>
-          Julia Elyachar is an award-winning author, anthropologist, and political economist.  She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language. At Princeton, she is an associate professor of anthropology, and associate professor at the Princeton Institute for International and Regional Studies. She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies.
+          Julia Elyachar is an anthropologist, political economist, and award winning author.
+          She was trained in anthropology, economics, history of political and economic thought, political economy, social theory, Middle Eastern Studies, and Arabic language.
+          She is an associate professor of anthropology at Princeton University, and associate professor at the Princeton Institute for International and Regional Studies. 
+          She is a Faculty Researcher with the Dignity and Debt network and serves on the Executive Boards of the Princeton Institute for International and Regional Studies, and the Center for Iran and Persian Gulf Studies.
         </p>
 
         <LinkButton class="mt-6" href="/julia-elyachar-cv.pdf" :showIcon="false">
@@ -30,7 +33,9 @@ useHead({ title: 'About | Julia Elyachar', })
 
     <div class="mt-8 md:mt-12 flex flex-col gap-y-4 max-w-2xl">
       <p>
-        Elyachar received her Ph.D. from Harvard University in Anthropology and Middle Eastern Studies. Her M.A. (Harvard University) is in Anthropology, and her B.A. (Barnard College, Columbia University) is in Economics. She was trained in advanced Arabic language at Middlebury College and the Center for Arabic Studies Abroad at the American University of Cairo, in Hebrew at Hebrew University, Jerusalem, in French at Aix Marseille University in Aix-en-Provence, France and in Slovenian at the University of Ljubljana, Slovenia. Before moving to Princeton University, she was Associate Professor of Anthropology and Economics and Director of the Center for Global Peace and Conflict Studies at UC Irvine. She has also taught and held research positions in Near Eastern Studies and at the International Center for Advanced Studies at New York University and at the Research Center of the Slovene Academy of Sciences and Arts in Ljubljana, Slovenia. 
+        Elyachar received her Ph.D. from Harvard University in Anthropology and Middle Eastern Studies. Her M.A. (Harvard University) is in Anthropology, and her B.A. (Barnard College, Columbia University) is in Economics.
+        She was trained in advanced Arabic language at Middlebury College and the Center for Arabic Studies Abroad at the American University of Cairo; in Hebrew at Hebrew University; in French at Aix Marseille University in Aix-en-Provence; and in Slovenian at the University of Ljubljana.
+        Before moving to Princeton University, she was Associate Professor of Anthropology and Economics and Director of the Center for Global Peace and Conflict Studies at UC Irvine. She has also taught and held research positions in Near Eastern Studies and at the International Center for Advanced Studies at New York University and at the Research Center of the Slovene Academy of Sciences and Arts in Ljubljana, Slovenia. 
       </p>
 
       <p>
@@ -38,7 +43,7 @@ useHead({ title: 'About | Julia Elyachar', })
       </p>
 
       <p>
-        Elyachar has given lectures in the United Kingdom, Egypt, Israel, Slovenia, Croatia, France, and Canada. Her work has been featured in venues ranging from the industry journal Banker’s Magazine, the ezine Jadaliyya with a reach of half a million unique visitors a month, multiple podcasts from Europe and the Middle East as well as the United States, and the independent Jewish Forward, founded in 1897, with a million unique visitors each month. Her writing is praised and drawn on by novelists as well as social scientists. 
+        Elyachar has given lectures in the United Kingdom, Egypt, Italy, Slovenia, Croatia, France, and Canada. Her work has been featured in venues ranging from the industry journal Banker’s Magazine, the ezine Jadaliyya with a reach of half a million unique visitors a month, multiple podcasts from Europe and the Middle East as well as the United States, and the independent Jewish Forward, founded in 1897, with a million unique visitors each month. Her writing is praised and drawn on by novelists as well as social scientists. 
       </p>
 
       <p>
