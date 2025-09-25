@@ -53,7 +53,7 @@ function date2string(inputDate) {
       <p class="italic text-sm">{{event.institution}}</p>
       <p class="mt-px text-gray-700 text-sm">{{event.type}}</p>
       <p class="text-gray-700 text-sm">{{event.location}}</p>
-      <!-- <p class="mt-3 text-sm max-w-2xl" v-html="event.description"/> -->
+      <p class="mt-3 text-sm max-w-2xl" v-html="event.description"/>
 
       <a v-if="event.href" :href="event.href" class="mt-3 w-fit text-sm font-semibold flex items-center hover:text-gray-900 hover:underline"><span>{{event.hrefText}}</span> <ChevronRightIcon class="size-5 shrink-0 translate-y-px"/></a>
 
