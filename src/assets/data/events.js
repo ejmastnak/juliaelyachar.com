@@ -50,7 +50,7 @@ export default [
     date: "2025-10-03",
     time: "",
     location: "Online",
-    description: 'The <i>afrika Podcast</i> features experts from academia, art, media, urban planning, and beyond, who are helping document and shape the histories and cultures of the Arab world through work.',
+    description: 'The <i>afikra Podcast</i> features experts from academia, art, media, urban planning, and beyond, who are helping document and shape the histories and cultures of the Arab world through work.',
     href: "https://explore.afikra.com/podcast/the-afikra-podcast/r/recpupcENTxYHkeb6",
     hrefText: "Link",
   },
