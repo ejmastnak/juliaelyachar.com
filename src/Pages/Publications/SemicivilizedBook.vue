@@ -32,7 +32,7 @@ const reviews = [
     </div>
 
     <div class="mt-12 md:flex md:flex-row-reverse gap-x-20 lg:px-16">
-      <img :src="semicivilizedImg" class="md:max-w-sm mx-auto my-6 md:my-0 rounded object-cover object-right" />
+      <img :src="semicivilizedImg" class="md:max-w-sm mx-auto my-6 md:my-0 rounded object-cover h-fit" />
       <div>
         <p>
           <span class="italic">On the Semicivilized</span> is a sweeping analysis of the coloniality that shaped—and blocked—sovereign futures for those dubbed barbarian and semicivilized in the former Ottoman Empire.
@@ -40,10 +40,9 @@ const reviews = [
         <p class="mt-2">
           Drawing on thirty years of ethnographic research in Cairo, family archives from Palestine and Egypt, and research on Ottoman debt and finance, Elyachar theorizes a global condition of the “semicivilized” marked by nonsovereign futures, crippling debts, and the constant specter of violence exercised by those who call themselves civilized, inviting us to rethink catastrophe and potentiality in Cairo and the world today.
         </p>
-        <LinkButton href="https://www.dukeupress.edu/on-the-semicivilized">
+        <LinkButton class="mt-5" href="https://www.dukeupress.edu/on-the-semicivilized">
           View the book at Duke University Press
         </LinkButton>
-
       </div>
     </div>
 

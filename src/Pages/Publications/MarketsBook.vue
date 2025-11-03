@@ -83,10 +83,10 @@ const reviews = [
     </div>
 
     <div class="mt-12 md:flex md:flex-row-reverse gap-x-20 lg:px-16">
-      <img :src="marketsImg" class="md:max-w-sm mx-auto my-6 md:my-0 rounded object-cover object-right" />
+      <img :src="marketsImg" class="md:max-w-sm mx-auto my-6 md:my-0 rounded object-cover h-fit" />
       <div>
         <p>What happens when the market tries to help the poor? In many parts of the world today, neoliberal development programs are offering ordinary people the tools of free enterprise as the means to well-being and empowerment. Schemes to transform the poor into small-scale entrepreneurs promise them the benefits of the market and access to the rewards of globalization. <span class="italic">Markets of Dispossession</span> is a theoretically sophisticated and sobering account of the consequences of these initiatives.</p>
-        <LinkButton href="https://www.dukeupress.edu/markets-of-dispossession">
+        <LinkButton class="mt-5" href="https://www.dukeupress.edu/markets-of-dispossession">
           View the book at Duke University Press
         </LinkButton>
       </div>
