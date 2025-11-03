@@ -16,23 +16,27 @@ const props = defineProps({
 
       <!-- Mobile -->
       <div class="text-center md:hidden">
-        <RouterLink :to="to">
+        <RouterLink v-if="to" :to="to">
           <h2 class="text-3xl font-semibold hover:underline">{{title}}</h2>
         </RouterLink :to="router">
+        <h2 v-else class="text-3xl font-semibold">{{title}}</h2>
+
         <p class="mt-1">{{subtitle}}</p>
       </div>
 
       <div class="mx-auto w-fit my-6 md:my-0 ">
-        <RouterLink :to="to">
+        <RouterLink v-if="to" :to="to">
           <img :src="img" class="max-w-md h-96 rounded object-cover object-right hover:ring-2 hover:ring-sc-brown hover:shadow-lg" :class="imgClasses" />
         </RouterLink>
+        <img v-else :src="img" class="max-w-md h-96 rounded object-cover object-right" :class="imgClasses" />
       </div>
 
       <div class="max-w-2xl">
         <div class="hidden md:block">
-          <RouterLink :to="to">
+          <RouterLink v-if="to" :to="to">
             <h2 class="text-3xl font-semibold hover:underline">{{title}}</h2>
           </RouterLink :to="router">
+          <h2 v-else class="text-3xl font-semibold">{{title}}</h2>
           <p class="mt-1">{{subtitle}}</p>
         </div>
         <div class="mt-5">
